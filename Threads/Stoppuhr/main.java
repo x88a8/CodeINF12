@@ -16,4 +16,5 @@ public class main {
   timer.interrupt();
   Date ende = new Date();
   long laufzeit = ende.getTime() - anfang.getTime();
+  System.out.println("Laufzeit: " + laufzeit);
 }
