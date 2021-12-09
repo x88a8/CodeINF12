@@ -1,3 +1,6 @@
+import java.util.*;
+import java.text.*;
+
 public class stoppuhr extends Thread {
   private SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
   
